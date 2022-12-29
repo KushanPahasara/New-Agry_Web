@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*.main{
+
+    width:100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,
+    rgba(0,0,0,0.5)50%), url(../images/menu-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 167vh;
+
+}*/
+
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+header{
+    
+   
+    margin-left: 8px;
+    margin-right: 8px;
+    
+    background-color: rgb(2,100,16) ;
+
+    width:auto;
+    height: 85px;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    padding: 28px 0;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    position: relative;
+}
+.nav-links li a::after{
+    content: '';
+    background: #ff3d00;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+aside{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 1000px;
+    height: 500px;
+    
+    float: left;
+}
+
+main{
+    width: 470px ;
+    height: 500px;
+    
+    float: left;
+    
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+    
+}
+.photo{
+    
+    margin-top: 10px;
+    width: 470px auto;
+    height: 400px;
+    
+    background-image: url(../images/dtfs_repo170521.jpg);
+    background-size:cover;
+}
+
+.Razo{
+    display: flex;
+    width: auto;
+}
+
+.contact1{
+
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 400px ;
+    height: 50px;
+    background-color:rgb(152,251,152);
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.contact2{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 400px ;
+    height: 50px;
+   
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(152,251,152);
+}
+
+
+
+
+
+
+
+/*.agri{
+
+    margin-left: 650px;
+    margin-right: 8px;
+    margin-top: 10px;
+    width: 800px;
+    height: 500px;
+   
+    /*background-image: url(../images/light.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(2,100,16,0.8);
+    color: white;
+    
+}*/
+
+footer{
+    width:auto;
+    height: 83px;
+    clear:left;
+    
+    
+    margin-left: 8px;
+    margin-right: 8px;
+    
+    background-color: rgb(34, 40, 35) ;
+
+}

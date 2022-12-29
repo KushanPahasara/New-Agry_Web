@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*.main{
+
+    width:100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,
+    rgba(0,0,0,0.5)50%), url(../images/menu-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+
+}*/
+
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+header{
+    
+   
+    margin-left: 8px;
+    margin-right: 8px;
+    
+    background-color: rgb(2,100,16) ;
+
+    width:auto;
+    height: 85px;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    padding: 28px 0;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    position: relative;
+}
+.nav-links li a::after{
+    content: '';
+    background: #ff3d00;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.topic{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 10px;
+    width: 1500px;
+    height: 70px;
+    display: flex;
+    
+    
+
+}
+h1{
+    padding-left: 450px;
+   color: black;
+   font-size: 70px;
+}
+h2{
+    padding-left: 70px;
+   color: black;
+   
+}
+P{
+    text-align:justify;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.razo{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 10px;
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    
+}
+
+.about{
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+    
+    background-color: rgb(152,251,152);
+}
+
+.about2{
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 400px;
+    height: 430px;
+    
+    background-color: rgb(152,251,152);
+
+}
+.about3{
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 400px;
+    height: 400px;
+    
+    background-color: rgb(152,251,152);
+
+}
+.agri{
+
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 90px;
+    width: 1500px auto;
+    height: 500px;
+    display: flex;
+   
+    
+}
+
+.mision{
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-left: 250px;
+    width: 500px;
+    height: 400px;
+    
+    background-image: url(../images/redTractor.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mision2{
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-left: 70px;
+    width: 500px;
+    height: 400px;
+    
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/drone.jpg);
+}
+
+
+
+
+footer{
+    width:auto;
+    height: 83px;
+    
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+    background-color: rgb(34, 40, 35) ;
+
+}
